@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Справка по программе "Управление банковскими счетами"</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #ecf0f1;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        code {
+            background: #bdc3c7;
+            padding: 2px 5px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Справка по программе "Управление банковскими счетами"</h1>
+        <p>Данная программа предназначена для управления списком банковских счетов, хранящихся в файле <code>accounts.csv</code>. Позволяет просматривать, добавлять, удалять и искать аккаунты.</p>
+        
+        <h2>Основной функционал</h2>
+        <ul>
+            <li><strong>Просмотр базы данных</strong> – отображает список всех банковских счетов в таблице.</li>
+            <li><strong>Добавление аккаунта</strong> – позволяет внести новый банковский счет в базу.</li>
+            <li><strong>Удаление аккаунта</strong> – удаляет выбранную запись по номеру в списке.</li>
+            <li><strong>Поиск</strong> – выполняет поиск аккаунтов по имени, номеру телефона или банковскому счету.</li>
+            <li><strong>Сохранение данных</strong> – вручную сохраняет изменения в файл.</li>
+            <li><strong>Выход</strong> – завершает работу программы.</li>
+        </ul>
+        
+        <h2>Горячие клавиши</h2>
+        <ul>
+            <li><code>↑</code> / <code>↓</code> – перемещение по меню.</li>
+            <li><code>Enter</code> – выбор пункта меню.</li>
+            <li><code>Esc</code> – выход из поиска или возврат в меню.</li>
+        </ul>
+
+        <h2>Формат файла данных</h2>
+        <p>Файл <code>accounts.csv</code> содержит данные в следующем формате:</p>
+        <pre>Ф.И.О,Телефон,Дата,Домашний адрес,Номер карты,Банковский счет</pre>
+        <p>Пример записи:</p>
+        <pre>John Doe,+7(123)456-78-90,2025-03-06,1234 Elm St,1234567890,9876543210</pre>
+    </div>
+</body>
+</html>
