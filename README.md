@@ -36,11 +36,20 @@
 
 **Меню с выбором стрелками**  
 
+![menu](https://github.com/lectorem-dev/BeginningProgramming/tree/main/Docs/screenshots/menu.jpg)
+
 **Вывод базы данных**  
+
+![database](https://github.com/lectorem-dev/BeginningProgramming/tree/main/Docs/screenshots/database.jpg)
 
 **Контекстный поиск**  
 
+![search](https://github.com/lectorem-dev/BeginningProgramming/tree/main/Docs/screenshots/search.jpg)
+
 **Создание новой записи**  
 
-**HTML-справка**  
+![addRecord](https://github.com/lectorem-dev/BeginningProgramming/tree/main/Docs/screenshots/addRecord.jpg)
 
+**HTML-справка** 
+
+![help](https://github.com/lectorem-dev/BeginningProgramming/tree/main/Docs/screenshots/help.jpg)
